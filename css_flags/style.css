@@ -1,0 +1,64 @@
+#france-blue {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+}
+#france-white {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  display: inline-block;
+}
+#france-red {
+  height: 300px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+}
+
+/*germany flag*/
+
+.germany-holder {
+  margin: 20px 0px 0px 0px;
+}
+
+#germany-black {
+  height: 100px;
+  width: 600px;
+  background-color: black;
+}
+#germany-red {
+  height: 100px;
+  width: 600px;
+  background-color: red;
+}
+#germany-yellow {
+  height: 100px;
+  width: 600px;
+  background-color: yellow;
+}
+
+/*Madagascar flag */
+.madagascar-holder {
+  margin: 20px 0px 0px 0px;
+}
+
+#madagascar-white {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  position: inline-block;
+}
+#madagascar-red {
+  height: 100px;
+  width: 300px;
+  right: 50%;
+  background-color: red;
+  display: inline-block;
+}
+#madagascar-green {
+  height: 100px;
+  width: 300px;
+  background-color: green;
+}
