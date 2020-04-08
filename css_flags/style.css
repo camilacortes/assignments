@@ -44,21 +44,62 @@
   margin: 20px 0px 0px 0px;
 }
 
-#madagascar-white {
-  height: 300px;
-  width: 200px;
-  background-color: white;
-  position: inline-block;
-}
 #madagascar-red {
   height: 100px;
-  width: 300px;
-  right: 50%;
+  width: 450px;
   background-color: red;
   display: inline-block;
+  margin-left: 150px;
 }
 #madagascar-green {
   height: 100px;
-  width: 300px;
+  width: 450px;
   background-color: green;
+  margin-left: 150px;
+}
+
+/*switzerland flag */
+
+#switzer-red {
+  height: 300px;
+  width: 600px;
+  margin: 20px 0px 0px 0px;
+  background-color: red;
+  display: inline-block;
+}
+
+.switzer-1 {
+  position: relative;
+  right: 35%;
+  bottom: 150px;
+  display: inline-block;
+}
+
+.switzer-2 {
+  position: relative;
+  right: 438px;
+  bottom: 70px;
+  display: inline-block;
+}
+
+.switzer-3 {
+  position: relative;
+  right: 462px;
+  bottom: 120px;
+  display: inline-block;
+}
+
+.switzer-4 {
+  position: relative;
+  right: 666px;
+  bottom: 120px;
+  display: inline-block;
+}
+
+#switzer-white {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  left: 30%;
 }
