@@ -179,14 +179,14 @@
   display: inline-block;
 }
 
-#white-square {
+#tonga-white-square {
   display: inline-block;
   position: relative;
   right: 604px;
   bottom: 139px;
 }
 
-#cross-red {
+#t-cross-red {
   position: relative;
   display: inline-block;
   background-color: red;
@@ -194,27 +194,221 @@
   width: 50px;
 }
 
-.cross-1 {
+.tonga-cross-1 {
   bottom: 234px;
   position: relative;
   right: 732px;
   display: inline-block;
 }
-.cross-2 {
+.tonga-cross-2 {
   display: inline-block;
   bottom: 208px;
   position: relative;
   right: 748px;
 }
-.cross-3 {
+.tonga-cross-3 {
   display: inline-block;
   bottom: 186px;
   position: relative;
   right: 840px;
 }
-.cross-4 {
+.tonga-cross-4 {
   display: inline-block;
   bottom: 208px;
   position: relative;
   right: 931px;
+}
+
+/*japan flag*/
+
+#japan-white {
+  height: 300px;
+  width: 600px;
+  margin: 20px 0px 0px 0px;
+  background-color: white;
+  display: inline-block;
+}
+
+#japan-circle {
+  position: relative;
+  display: inline-block;
+  right: 400px;
+  bottom: 75px;
+}
+
+.j-red-circle {
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  display: inline-block;
+  height: 188px;
+  width: 192px;
+}
+
+/* Greece flag */
+
+/* #greece-holder {
+  right: 794px;
+  display: inline-block;
+  position: relative;
+  top: 288px;
+} */
+#blue-greece {
+  height: 300px;
+  width: 600px;
+  margin: 20px 0px 0px 0px;
+  background-color: RGB(18, 73, 159);
+}
+
+#white-cross-vertical {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  height: 94px;
+  width: 40px;
+}
+
+#white-cross-horizontal {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  height: 35px;
+  width: 89px;
+}
+
+#greece-cross-1 {
+  position: relative;
+  right: 0px;
+  bottom: 291px;
+  display: inline-block;
+}
+#greece-cross-2 {
+  display: inline-block;
+  right: 26px;
+  bottom: 300px;
+  position: relative;
+}
+#greece-cross-3 {
+  display: inline-block;
+  bottom: 291px;
+  right: 48px;
+  position: relative;
+}
+#greece-cross-4 {
+  display: inline-block;
+  bottom: 223px;
+  right: 162px;
+  position: relative;
+}
+
+.short-line {
+  display: inline-block;
+  background-color: white;
+  height: 36px;
+  width: 422px;
+}
+
+#white-line1 {
+  display: inline-block;
+  position: relative;
+  bottom: 326px;
+  right: 96px;
+}
+
+#white-line2 {
+  display: inline-block;
+  position: relative;
+  bottom: 255px;
+  right: 517px;
+}
+
+.long-line {
+  display: inline-block;
+  background-color: white;
+  height: 36px;
+  width: 600px;
+}
+
+#white-line3 {
+  display: inline-block;
+  position: relative;
+  bottom: 227px;
+  right: 0px;
+}
+
+#white-line4 {
+  display: inline-block;
+  position: relative;
+  bottom: 153px;
+  right: 604px;
+}
+
+/*niger flag*/
+
+#niger-orange {
+  height: 111px;
+  width: 600px;
+  background-color: rgb(243, 101, 7);
+  /* display: inline-block;
+  position: relative; */
+  /* bottom: -154px; */
+}
+
+#niger-orange-circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  top: 14px;
+  left: 249px;
+  position: relative;
+  /* display: inline-block; */
+  background-color: rgb(243, 101, 7);
+}
+
+#niger-green {
+  height: 111px;
+  width: 600px;
+  margin: 25px 0px 0px 0px;
+  background-color: green;
+  display: inline-block;
+  top: 244px;
+  right: 709px;
+}
+
+/*Maldives flag */
+
+#m-red {
+  height: 300px;
+  width: 600px;
+  margin: 15px 0px 0px 0px;
+  background-color: rgb(199, 35, 40);
+}
+
+#m-green {
+  height: 191px;
+  width: 379px;
+  background-color: rgb(50, 111, 46);
+  position: relative;
+  bottom: 255px;
+  left: 102px;
+}
+
+#m-white-circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: white;
+  bottom: 408px;
+  left: 245px;
+}
+
+#m-green-circle {
+  border-radius: 76%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: rgb(50, 111, 46);
+  bottom: 509px;
+  left: 258px;
 }
