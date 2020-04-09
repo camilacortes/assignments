@@ -70,7 +70,7 @@
 
 .switzer-1 {
   position: relative;
-  right: 35%;
+  right: 25%;
   bottom: 150px;
   display: inline-block;
 }
@@ -101,5 +101,120 @@
   height: 80px;
   width: 80px;
   display: inline-block;
-  left: 30%;
+}
+
+/* sweden flag */
+
+#sweden-blue {
+  height: 300px;
+  width: 600px;
+  margin: 20px 0px 0px 0px;
+  background-color: rgb(28, 86, 151);
+  display: inline-block;
+}
+
+#sweden-yellow1 {
+  background-color: rgb(247, 196, 40);
+  height: 299px;
+  width: 62px;
+  display: inline-block;
+}
+
+#sweden-yellow2 {
+  background-color: rgb(247, 196, 40);
+  height: 63px;
+  width: 599px;
+  display: inline-block;
+}
+.sweden-1 {
+  position: relative;
+  right: 36%;
+  bottom: 1px;
+  display: inline-block;
+}
+
+.sweden-2 {
+  position: relative;
+  right: 47.5%;
+  bottom: 107px;
+  display: inline-block;
+}
+
+/*gambia flag */
+
+#gambia-red {
+  background-color: red;
+  height: 120px;
+  width: 600px;
+  margin: 20px 0px 15px 0px;
+}
+
+#gambia-blue {
+  background-color: rgb(13, 16, 92);
+  height: 80px;
+  width: 600px;
+  margin: 20px 0px 15px 0px;
+}
+
+#gambia-green {
+  background-color: rgb(47, 103, 30);
+  height: 120px;
+  width: 600px;
+  margin: 20px 0px 15px 0px;
+}
+
+/*tonga flag*/
+
+#tonga-red {
+  height: 300px;
+  width: 600px;
+  margin: 20px 0px 0px 0px;
+  background-color: red;
+  display: inline-block;
+}
+#tonga-white {
+  background-color: white;
+  height: 161px;
+  width: 202px;
+  display: inline-block;
+}
+
+#white-square {
+  display: inline-block;
+  position: relative;
+  right: 604px;
+  bottom: 139px;
+}
+
+#cross-red {
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+
+.cross-1 {
+  bottom: 234px;
+  position: relative;
+  right: 732px;
+  display: inline-block;
+}
+.cross-2 {
+  display: inline-block;
+  bottom: 208px;
+  position: relative;
+  right: 748px;
+}
+.cross-3 {
+  display: inline-block;
+  bottom: 186px;
+  position: relative;
+  right: 840px;
+}
+.cross-4 {
+  display: inline-block;
+  bottom: 208px;
+  position: relative;
+  right: 931px;
 }
