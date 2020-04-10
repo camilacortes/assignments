@@ -65,6 +65,7 @@ a:hover {
 /*tips*/
 #tips {
   height: 600px;
+  margin: 10px;
 }
 
 .header-tips {
@@ -122,4 +123,34 @@ a:hover {
 
 .tips-picture {
   width: 426px;
+}
+
+#hospital {
+  height: 600px;
+  margin: 200px;
+}
+
+.hospital-header {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.hospital-content {
+  width: 400px;
+  font-size: 30px;
+}
+.greenhouse-2 {
+  float: right;
+  position: relative;
+  bottom: 559px;
+  width: 500px;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
 }
