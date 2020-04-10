@@ -17,14 +17,13 @@
   height: 100px;
 }
 
-ul {
+.nav-ul {
   list-style-type: none;
   margin: 20px;
   padding: 0;
-  /* position: fixed; */
 }
 
-li {
+.nav-li {
   display: inline;
   margin: 15px;
 }
@@ -61,4 +60,66 @@ a:hover {
   justify-content: flex-end;
   width: 600px;
   font-size: 30px;
+}
+
+/*tips*/
+#tips {
+  height: 600px;
+}
+
+.header-tips {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.succulent-title {
+  margin: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+}
+
+.succulent-ul {
+  width: 300px;
+  background-color: rgb(223, 237, 223);
+  font-size: 20px;
+}
+
+.succulent-li {
+  margin: 20px;
+}
+
+.house-plants {
+  margin: 20px;
+  font-size: 30px;
+  width: 300px;
+  position: relative;
+  bottom: 644px;
+  left: 411px;
+}
+
+.house-plants-ul {
+  position: relative;
+  bottom: 645px;
+  left: 400px;
+  width: 300px;
+  height: 569px;
+  font-size: 20px;
+  background-color: rgb(218, 214, 209);
+}
+
+.house-plants-li {
+  margin: 10px;
+}
+
+.tips-picture-holder {
+  position: relative;
+  bottom: 1234px;
+  left: 868px;
+}
+
+.tips-picture {
+  width: 426px;
 }
