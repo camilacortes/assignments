@@ -64,8 +64,14 @@ a:hover {
 
 /*tips*/
 #tips {
-  height: 600px;
+  height: 822px;
   margin: 10px;
+}
+
+#list-holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .header-tips {
@@ -74,39 +80,21 @@ a:hover {
   justify-content: center;
 }
 
-.succulent-title {
-  margin: 20px;
-  font-size: 30px;
-  display: flex;
-  justify-content: flex-start;
-  width: 300px;
-}
-
 .succulent-ul {
   width: 300px;
   background-color: rgb(223, 237, 223);
   font-size: 20px;
+  margin: 20px;
 }
 
 .succulent-li {
   margin: 20px;
 }
 
-.house-plants {
-  margin: 20px;
-  font-size: 30px;
-  width: 300px;
-  position: relative;
-  bottom: 644px;
-  left: 411px;
-}
-
 .house-plants-ul {
-  position: relative;
-  bottom: 645px;
-  left: 400px;
+  margin: 20px;
   width: 300px;
-  height: 569px;
+  height: 653px;
   font-size: 20px;
   background-color: rgb(218, 214, 209);
 }
@@ -115,14 +103,9 @@ a:hover {
   margin: 10px;
 }
 
-.tips-picture-holder {
-  position: relative;
-  bottom: 1234px;
-  left: 868px;
-}
-
 .tips-picture {
   width: 426px;
+  margin: 20px;
 }
 
 #hospital {
@@ -135,14 +118,16 @@ a:hover {
   justify-content: center;
   font-size: 50px;
 }
+#hospital-content-holder {
+  display: flex;
+  justify-content: center;
+}
 
 .hospital-content {
-  width: 400px;
   font-size: 30px;
 }
 .greenhouse-2 {
-  float: right;
-  position: relative;
+  margin: 20px;
   bottom: 559px;
   width: 500px;
 }
@@ -154,3 +139,55 @@ a:hover {
   justify-content: center;
   margin: 30px;
 }
+
+/* media queries
+
+@media only screen and (min-width: 320px) and (max-width: 321px) {
+  * {
+    width: 100%;
+  }
+
+  #header {
+    font-size: 22px;
+    height: 142px;
+  }
+
+  #nav {
+    font-size: 18px;
+    height: 50px;
+  }
+
+  #about {
+    height: 731px;
+  }
+
+  .potted-plant {
+    height: 250px;
+    width: 252px;
+    margin: 4px;
+  }
+
+  .about-paragraph {
+    font-size: 20px;
+    width: 308px;
+    margin: 0px;
+  }
+
+  .header-tips {
+    font-size: 40px;
+  }
+
+  .succulent-title {
+    margin: 10px;
+    font-size: 25px;
+  }
+
+  .succulent-ul {
+    width: 71%;
+  }
+
+  .house-plants {
+    margin: 20px;
+    font-size: 25px;
+  }
+} */
