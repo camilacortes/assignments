@@ -113,6 +113,10 @@ a:hover {
   margin: 200px;
 }
 
+#hospital-header-holder {
+  display: flex;
+  justify-content: center;
+}
 .hospital-header {
   display: flex;
   justify-content: center;
@@ -140,54 +144,189 @@ a:hover {
   margin: 30px;
 }
 
-/* media queries
+/* media queries*/
 
-@media only screen and (min-width: 320px) and (max-width: 321px) {
-  * {
-    width: 100%;
-  }
-
-  #header {
-    font-size: 22px;
-    height: 142px;
-  }
-
-  #nav {
-    font-size: 18px;
-    height: 50px;
-  }
-
+@media only screen and (min-width: 1099px) {
   #about {
-    height: 731px;
-  }
-
-  .potted-plant {
-    height: 250px;
-    width: 252px;
-    margin: 4px;
+    height: 666px;
   }
 
   .about-paragraph {
-    font-size: 20px;
-    width: 308px;
-    margin: 0px;
+    font-size: 30px;
   }
 
-  .header-tips {
-    font-size: 40px;
+  #tips {
+    height: 982px;
   }
 
-  .succulent-title {
-    margin: 10px;
-    font-size: 25px;
+  .tips-picture {
+    width: 344px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1098px) {
+  #about {
+    height: 848px;
+  }
+
+  .potted-plant-holder {
+    display: block;
+    align-items: center;
+  }
+  .potted-plant {
+    margin: 1px;
+  }
+  .about-paragraph {
+    font-size: 23px;
+  }
+
+  #tips {
+    height: 1258px;
+  }
+
+  .tips-picture {
+    width: 230px;
+    height: 333px;
+  }
+
+  .house-plants-ul {
+    height: 786px;
+  }
+
+  .hospital-content {
+    font-size: 21px;
+  }
+  .greenhouse-2 {
+    width: 499px;
+    height: 344px;
+  }
+}
+/* 
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  #header {
+    font-size: 33px;
+    height: 152px;
+  }
+
+  #about {
+    height: 600px;
+  }
+
+  .about-paragraph {
+    display: flex;
+    margin: 12px;
+    justify-content: center;
+    width: 452px;
+  }
+
+  .potted-plant-holder {
+    display: block;
+    align-items: center;
+  }
+  .potted-plant {
+    margin: 1px;
+    height: 410px;
+    width: 375px;
+  }
+  .about-paragraph {
+    font-size: 23px;
+  }
+
+  #tips {
+    height: 1258px;
+  }
+
+  .tips-picture {
+    display: none;
+  }
+
+  #list-holder {
+    display: block;
   }
 
   .succulent-ul {
-    width: 71%;
+    width: 396px;
   }
 
-  .house-plants {
-    margin: 20px;
-    font-size: 25px;
+  .house-plants-ul {
+    height: 427px;
+    width: 396px;
+  }
+
+  .hospital-content {
+    font-size: 21px;
+  }
+  .greenhouse-2 {
+    width: 499px;
+    height: 344px;
   }
 } */
+
+@media only screen and (min-width: 340px) and (max-width: 798px) {
+  #header {
+    font-size: 32px;
+    height: 146px;
+  }
+
+  #nav {
+    font-size: 23px;
+    height: 64px;
+  }
+
+  #about {
+    height: 775px;
+  }
+
+  .potted-plant-holder {
+    display: block;
+    align-items: center;
+  }
+  .potted-plant {
+    margin: 1px;
+    width: 300px;
+    height: 300px;
+  }
+  .about-paragraph {
+    font-size: 20px;
+    width: 392px;
+  }
+
+  #tips {
+    height: 867px;
+  }
+
+  .header-tips {
+    font-size: 42px;
+  }
+
+  .tips-picture {
+    display: none;
+  }
+
+  #list-holder {
+    display: block;
+  }
+
+  .succulent-ul {
+    width: 388px;
+  }
+
+  .house-plants-ul {
+    height: 427px;
+    width: 388px;
+  }
+
+  #hospital-header-holder {
+    width: 182px;
+  }
+
+  .hospital-header {
+    font-size: 25px;
+  }
+  .hospital-content {
+    font-size: 21px;
+  }
+  .greenhouse-2 {
+    display: none;
+  }
+}
