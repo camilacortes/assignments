@@ -37,29 +37,22 @@ var messageRight = document.getElementsByClassName('message right');
 dropdown.addEventListener('change', function(e) {
   console.log(this.value);
   if (this.value === 'theme-two') {
-    messageLft[0].style.backgroundColor = 'red';
-    messageLft[1].style.backgroundColor = 'red';
-    messageRight[0].style.backgroundColor = 'grey';
-    messageRight[1].style.backgroundColor = 'grey';
+    for (let i = 0; i < messageLft.length; i++) {
+      messageLft[i].style.backgroundColor = 'red';
+      messageRight[i].style.backgroundColor = 'grey';
+    }
   }
 });
 
-// send messages
+// send messages GOLD
 
-var userInput = document.getElementById('input').value;
+const userInput = message.input.value;
+const sendBtn = document.getElementById('send');
+console.log(messages);
 
-// console.log(userInput);
-
-var sendBtn = document.querySelector(' form button');
-
-// console.log(sendBtn);
-
-var newMessage = document.createElement('div');
-
-sendBtn.addEventListener('click', function(e) {
-  newMessage.textContent = userInput;
-  newMessage.className = 'right';
-  document.getElementById('main').appendChild(newMessage);
+sendBtn.addEventListener('click', function(event) {
+  // i want to add a new message to messageRight.
+  var newDiv = document.createElement('div');
+  newDiv.className = 'message right';
+  newDiv.textContent = userInput;
 });
-
-
