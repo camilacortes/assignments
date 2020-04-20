@@ -46,13 +46,15 @@ dropdown.addEventListener('change', function(e) {
 
 // send messages GOLD
 
-const userInput = message.input.value;
-const sendBtn = document.getElementById('send');
 console.log(messages);
 
-sendBtn.addEventListener('click', function(event) {
+document.message.addEventListener('submit', function(event) {
   // i want to add a new message to messageRight.
+  event.preventDefault();
+  const userInput = message.input.value;
+  const messages = document.getElementsByClassName('messages')[0];
   var newDiv = document.createElement('div');
   newDiv.className = 'message right';
   newDiv.textContent = userInput;
+  messages.appendChild(newDiv);
 });
